@@ -1,0 +1,44 @@
+# Thu muc Unity tu sinh - khong dua len Git
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# File do IDE sinh ra
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.unityproj
+
+# File tam, crash, build
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-build.properties
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Khoa API va cau hinh bi mat - tuyet doi khong commit
+/Assets/StreamingAssets/config.local.json
+/Assets/StreamingAssets/config.local.json.meta
+*.env
+
+# He dieu hanh
+.DS_Store
+Thumbs.db
